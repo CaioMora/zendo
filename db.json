@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": "c93c",
+      "title": "[Angular] Criar projeto",
+      "owner": "Caio Mora",
+      "status": "feito",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "449e",
+      "title": "[Angular] Arrumar a estilização",
+      "owner": "Caio Mora",
+      "status": "feito",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "bc95",
+      "title": "[Angular] Utilizar Angular Material e Bootstrap",
+      "owner": "Caio Mora",
+      "status": "feito",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "dbff",
+      "title": "[Angular] Subir para o Github",
+      "owner": "Caio Mora",
+      "status": "feito",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "617f",
+      "title": "[Angular] Criar testes unitários",
+      "owner": "Caio Mora",
+      "status": "feito",
+      "date": "2025-07-03"
+    }
+  ]
+}

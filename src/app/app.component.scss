@@ -1,0 +1,55 @@
+.cma-main-navbar {
+    width: 66px;
+    height: 100vh;
+    padding-top: 25px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-color: #ffffff;
+}
+.cma-dashboard-icon {
+    background-color: rgb(0 96 185);
+    height: 36px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    padding: 3px 1px 1px 1px;
+    outline: none;
+    margin-left: 13px;
+}
+.footer-navigation-items-area {
+    .surface-avatar-menu-connector-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+    .surface-avatar-menu-component {
+        height: 44px;
+        width: 44px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .surface-avatar-menu-component {
+        position: absolute;
+        bottom: 0px;
+        border-radius: 50%;
+        transition: background-color 100ms ease;
+    }
+    .person-bullet-image {
+        border: 2px solid #fff;
+    }
+    .person-bullet-component {
+        position: relative;
+        display: flex;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        flex-shrink: 0;
+    }
+}

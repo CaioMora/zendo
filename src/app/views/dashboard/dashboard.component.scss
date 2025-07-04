@@ -1,0 +1,124 @@
+.cma-main-skeleton {
+  .cma-application {
+    .cma-main-dashboard {
+      position: absolute;
+      background-color: #f5f7fa;
+      border-left: solid 1px #ecf3f8;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      left: 66px;
+      -webkit-transition: left 150ms cubic-bezier(0, 0, 0.35, 1);
+      -o-transition: left 150ms cubic-bezier(0, 0, 0.35, 1);
+      transition: left 150ms cubic-bezier(0, 0, 0.35, 1);
+      overflow: hidden;
+      .cma-header-dashboard {
+        padding: 30px 30px 0px 30px;
+        height: 120px;
+        border-bottom: solid 1px #ecf3f8;
+        background-color: #ffffff;
+      }
+      .cma-dashboard-body {
+        padding: 30px 30px 0px 30px;
+        .cma-board-name {
+          width: 60%;
+          margin-left: 15px;
+          padding: 5px;
+        }
+        .cma-board-atributes {
+          .actions {
+            display: flex;
+            .cma-button-edit {
+              margin-right: 10px;
+            }
+          }
+          .cma-board-owner {
+            padding: 5px;
+            width: 120px;
+            border-left: 1px solid #fff;
+            text-align: center;
+            .cma-task-title {
+              position: absolute;
+              top: 200px;
+              right: 465px;
+            }
+          }
+          .cma-board-status {
+            padding: 5px;
+            width: 120px;
+            border-left: 1px solid #fff;
+            text-align: center;
+            .cma-task-title {
+              position: absolute;
+              top: 200px;
+              right: 348px;
+            }
+          }
+          .cma-board-date {
+            padding: 5px;
+            width: 120px;
+            border-left: 1px solid #fff;
+            text-align: center;
+            .cma-task-title {
+              position: absolute;
+              top: 200px;
+              right: 235px;
+            }
+          }
+        }
+      }
+      .cma-board-item {
+        height: 36px;
+        display: block;
+      }
+      .new-item {
+        width: 107px;
+        height: 32px;
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 10px;
+        color: #fff;
+        border-radius: 4px 4px 4px 4px;
+        border: none;
+        background-color: rgb(0, 96, 185);
+      }
+      .delete-item { 
+        width: 60px;
+        height: 32px;
+        font-size: 15px;
+        font-weight: 200;
+        color: #fff;
+        border-radius: 4px 4px 4px 4px;
+        border: none;
+        background-color: rgb(255 78 78);
+      }
+      .cma-dashboard-name {
+        font-weight: 600;
+        line-height: 40px;
+        color: #343c6a;
+      }
+      .cma-dashboard-description {
+        font-weight: 500;
+        line-height: 40px;
+        color: #343c6a;
+      }
+    }
+    .cma-board-content-itens {
+      margin-top: 35px;
+      ul {
+        list-style: none;
+        padding: 0px;
+        li {
+          border-radius: 4px;
+          background: #ffffff;
+          border: solid 1px #ecf3f8;
+          font-weight: 500;
+          color: #000000;
+          padding: 10px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}

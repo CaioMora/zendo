@@ -1,0 +1,60 @@
+    <div class="cma-main-skeleton">
+      <div class="cma-application">
+        <div class="cma-main-dashboard">
+          <div class="cma-header-dashboard">
+            <div class="cma-dashboard">
+              <h1 class="cma-dashboard-name">
+                Bem-vindo ao Zendo!
+              </h1>
+              <h4 class="cma-dashboard-description">
+                Aqui sua organização é sem limites.
+              </h4>
+            </div>
+          </div>
+          <div class="cma-dashboard-content">
+            
+            <div class="cma-dashboard-body">
+              <div class="cma-board-content-wrapper">
+                <div class="cma-dashboard-action" >
+                  <button class="new-item" (click)="newTask()">Criar Tarefa</button>
+                </div>
+                <div class="cma-board-content-itens">
+                  <ul>
+                    <li *ngFor="let task of taskInfo" >
+                      <div class="cma-board-item" style="display: flex">
+                        <div class="cma-board-name">
+                          <span>{{task.title}}</span>
+                        </div>
+                        <div class="cma-board-atributes" style="display: flex">
+                          <div class="cma-board-owner">
+                            {{ task.owner }}
+                          </div>
+                          <div class="cma-board-status">
+                            {{ task.status }}
+                          </div>
+                          <div class="cma-board-date">
+                            {{ task.date }}
+                          </div>
+                          <div class="actions">
+                            <button class="delete-item" aria-label="Excluir" (click)="deleteTask(task)">
+                              <mat-icon>delete</mat-icon>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+            <ng-template #deleteModal>
+              <div class="modal-body text-center">
+                <p>Você deseja excluir essa tarefa?</p>
+                <button type="button" class="btn btn-default"  (click)="onConfirm()">Sim</button>
+                <button type="button" class="btn btn-primary"  (click)="onCancel()">Não</button>
+              </div>
+            </ng-template>
+        </div>
+      </div>
+    </div>
