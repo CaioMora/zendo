@@ -1,27 +1,24 @@
-# Zendo
+### ToDoList - Uma ToDo List em AngularJS  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+Olá jovem pupilo, tudo certo? espero que sim. =) 
 
-## Development server
+Hoje, vim te presentear com sua nova lista de tarefas para não esquecer de entregar aquela task. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Até a Próxima.
 
-## Code scaffolding
+### Detalhes do projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O projeto foi desenvolvido com Angular CLI version 17.0.0.
 
-## Build
+## Servidor de desenvolvimento
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Antes de iniciar o servidor de desenvolvimento, certifique-se de que todo o seu repositório está atualizado com o cógido mais recente disponibilizado. 
 
-## Running unit tests
+Em seguida, execute `npm install` para instalar as dependências do projeto em sua máquina. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Rode o comando `npx json-server --watch db.json` para iniciar o banco de dados da aplicação.
 
-## Running end-to-end tests
+Após as intalações serem finalizadas e o banco de dados estar funcionando, execute  `ng serve` para rodar a aplicação em um servidor de desenvolvimento. 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Visite a URL:  `http://localhost:4200/` para ver funcionando. 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
