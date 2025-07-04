@@ -1,6 +1,6 @@
-### ToDoList - Uma ToDo List em AngularJS  
+### Zendo - Uma ToDo List em AngularJS  
 
-Olá jovem pupilo, tudo certo? espero que sim. =) 
+Olá, tudo certo? espero que sim. =) 
 
 Hoje, vim te presentear com sua nova lista de tarefas para não esquecer de entregar aquela task. 
 
